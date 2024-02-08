@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor signup</title>
+</head>
+
+<body text="black">
+    <header>
+        <h1>
+            <center>
+                <font color="orange">Apollo Hospitals</font>
+            </center>
+        </h1>
+    </header>
+    <p align="center">&nbsp;
+    <a href="About apollo.html">About apollo</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Apollo Branches.html">Apollo Branches</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Apollo contact.html">Apollo contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Apollo Services.html">Apollo Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="our doctors.html"> Our doctors</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="our labs.html">our labs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Doctorsignin.html">DoctorSignin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">DoctorSignup</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="PatientSignin.html">PatientSignin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="patientSignup.html">PatientSignup</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <hr>
+    <form action="DoctorSignup" method="post" name="DoctorSignup">
+    <table align="center" bgcolor="lightgrey" cellspacing="10px">
+
+      <caption>
+        <h1>DoctorSignup</h1>
+      </caption>
+        <td>
+          <label for="fname">First Name:</label>
+          <br>
+          <input type="text" name="fname" id="fname">
+        </td>
+
+        <!-- last name -->
+        <td>
+          <label for="lname">Last Name:</label>
+          <br>
+          <input type="text" name="lname" id="lname">
+        </td>
+      </tr>
+
+      <tr>
+        <!-- username -->
+        <td>
+          <label for="username">Username:</label>
+          <br>
+          <input type="text" name="username" id="username">
+        </td>
+
+        <!-- password -->
+        <td>
+          <label for="pass">Password:</label>
+          <br>
+          <input type="password" name="pass" id="pass">
+        </td>
+      </tr>
+
+      <tr>
+        <!-- email -->
+        <td>
+          <label for="email">Email Id:</label>
+          <br>
+          <input type="email" name="email" id="email">
+        </td>
+
+        <!-- mobile -->
+        <td>
+          <label for="mobile">Mobile No.:</label>
+          <br>
+          <input type="number" name="mobile" id="mobile">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="spec">Specialization:</label>
+          <br>
+          <select name="speciality" id="spec">
+            <option>Please select speciality</option>
+            <option value="card">Cardioloist</option>
+            <option value="audio">Audiologist</option>
+            <option value="den">Dentist</option>
+            <option value="ent">Ent</option>
+            <option value="sur">Surgeon</option>
+            <option value="radio">Radiologist</option>
+            <option value="ped">Pediatrician</option>
+            <option value="psy">Psychiatrist</option>
+            <option value="vet">Veterinarian</option>
+            <option value="onc">Oncologist</option>
+            <option value="neu">Neurologist</option>
+            <option value="cardcic">Cardiothoracic</option>
+          </select>
+        </td>
+
+        <!-- gender -->
+        <td>
+          <label for="gender">Gender:</label>
+          <br>
+          <select name="gender" id="gender">
+            <option>Please select gender</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="o">Other</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- state -->
+        <td>
+          <label for="state">State:</label>
+          <br>
+          <select name="state" id="state">
+            <option>Please select a state</option>
+            <option value="state1">State1</option>
+            <option value="state2">State2</option>
+            <option value="state3">State3</option>
+            <option value="state4">State4</option>
+            <option value="state5">State5</option>
+          </select>
+        </td>
+
+        <!-- city -->
+        <td>
+          <label for="city">City:</label>
+          <br>
+          <select name="city" id="city">
+            <option>Please select a city</option>
+            <option value="city1">City1</option>
+            <option value="city2">City2</option>
+            <option value="city3">City3</option>
+            <option value="city4">City4</option>
+            <option value="city5">City5</option>
+          </select>
+        </td>
+        </td>
+      </tr>
+
+      <!-- full address -->
+      <tr>
+        <td rowspan="2">
+          <label for="add">Address:</label>
+          <br>
+          <textarea name="add" id="" cols="20" rows="3"></textarea>
+        </td>
+        <td>
+          <label for="pin">Pincode:</label>
+          <br>
+          <input type="number" name="pin" id="pin">
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <input type="submit" value="  Register  "> &nbsp;&nbsp;&nbsp;
+          <input type="reset" value="   Clear   ">
+        </td>
+      </tr>
+
+      <!-- login link -->
+      <tr align="center">
+        <td colspan="2">
+          Already Registered? <a href="Doctorsignin.html">Click here to login</a>
+        </td>
+      </tr>
+
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>            
+    <footer>
+        <h3>
+            <center>
+                <font color="blue">
+                    copyright@360digiri
+                </font>
+            </center>
+        </h3>
+    </footer>
+
+</body>
